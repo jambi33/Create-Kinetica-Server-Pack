@@ -1,0 +1,88 @@
+# Minecraft NeoForge Server .gitignore
+
+# Keep these files/folders (commented out means they won't be ignored)
+# mods/
+# config/
+# server.properties
+
+# Ignore server runtime files
+world/
+logs/
+crash-reports/
+debug/
+saves/
+
+# Ignore server jar files
+*.jar
+!mods/*.jar
+
+# Ignore forge/neoforge installer
+forge-*.jar
+neoforge-*.jar
+minecraft_server.*.jar
+
+# Ignore version-specific files
+versions/
+libraries/
+run/
+
+# Ignore backup files
+*.backup
+*.bak
+backups/
+
+# Ignore cache and temp files
+cache/
+temp/
+tmp/
+.cache/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Ignore user-specific files
+usercache.json
+usernamecache.json
+banned-ips.json
+banned-players.json
+whitelist.json
+ops.json
+
+# Ignore server performance files
+server.log
+server.log.*
+latest.log
+
+# Ignore JVM crash logs
+hs_err_pid*.log
+
+# Ignore other common server files
+eula.txt
+server-icon.png
+
+# Ignore mod-specific generated files
+journeymap/
+resourcepacks/
+screenshots/
+options.txt
+optionsof.txt
+servers.dat
+realms_persistence.
+
+#ignore .sh scripts
+run.sh
+restart.sh
+
+#ignore jvm and properties
+user_jvm_args.txt
+server.properties
+config/simple-discord-link/simple-discord-link.toml
