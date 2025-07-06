@@ -13,7 +13,7 @@ A comprehensive server modpack for Minecraft with performance optimizations and 
 
 2. **Alternative - Git Clone:**
    ```bash
-   git clone https://github.com/yourusername/kinetica-server-modpack.git
+   git clone https://github.com/jambi33/Create-Kinetica-Server-Pack.git
    ```
 
 3. **Required additional files:**
@@ -89,9 +89,10 @@ entity-activation-range=32
 
 ### Custom Mods Included
 
-#### Confined Villagers Optimization
-- **Purpose:** Improves server performance by optimizing villager AI and pathfinding
-- **Benefits:** Reduces server lag in areas with many villagers
+#### Villager AI Optimizer
+- **Purpose:** Improves server performance by disabling villager AI and pathfinding
+- **Conditions:** AI disabled when confined to a single block area, or nametag "noai" is used on villager
+- **Benefits:** Reduces server lag in areas with many villagers, like trading halls
 - **GitHub Repository:** Link coming soon
 
 ### Communication Mods Configuration
